@@ -41,13 +41,13 @@ Description of the first step, preparing the PCB.
 
 Description of the second step, transferring the circuit design onto the PCB.
 
-[image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/02e8f626-37d2-42ff-a3fa-8bf82198003f)
+![Image Description](link-to-image)
 
 ### Step 3: Etching the PCB <a name="step-3-etching-the-pcb"></a>
 
 Description of the third step, etching the PCB.
 
-![image](/home/myself/Pictures/Memes/smartchoice.png![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/3bdf7b4f-1afd-4484-b9c5-09ed36f52dca)
+![Image Description](/home/myself/Pictures/Memes/smartchoice.png![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6b7457c3-a367-4c58-ba48-923d3df96b7f)
 )
 
 ### Step 4: Cleaning and Inspection <a name="step-4-cleaning-and-inspection"></a>
