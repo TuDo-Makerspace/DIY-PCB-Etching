@@ -1,6 +1,3 @@
-# PlatinenAetsen
-Selbstständige Ätzung von Platinen
-
 # Selbstständige Ätzung von Platinen
 
 ## Inhaltsverzeichnis
