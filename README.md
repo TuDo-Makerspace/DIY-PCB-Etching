@@ -47,7 +47,7 @@ Description of the second step, transferring the circuit design onto the PCB.
 
 Description of the third step, etching the PCB.
 
-![Image Description](![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6b7457c3-a367-4c58-ba48-923d3df96b7f)
+![Doing a smart choice](![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6b7457c3-a367-4c58-ba48-923d3df96b7f)
 
 ### Step 4: Cleaning and Inspection <a name="step-4-cleaning-and-inspection"></a>
 
