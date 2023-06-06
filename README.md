@@ -1,64 +1,64 @@
-# Selbstständige Ätzung von Platinen
+# DIY PCB Etching
 
-## Inhaltsverzeichnis
-1. [Einführung](#einführung)
-2. [Sicherheitshinweise](#sicherheitshinweise)
-3. [Materialien und Werkzeuge](#materialien-und-werkzeuge)
-4. [Vorbereitung](#vorbereitung)
-5. [Ätzprozess](#ätzprozess)
-    1. [Schritt 1: Vorbereitung der Platine](#schritt-1-vorbereitung-der-platine)
-    2. [Schritt 2: Übertragung des Schaltplans](#schritt-2-übertragung-des-schaltplans)
-    3. [Schritt 3: Ätzen der Platine](#schritt-3-ätzen-der-platine)
-    4. [Schritt 4: Reinigung und Prüfung](#schritt-4-reinigung-und-prüfung)
-6. [Fazit](#fazit)
-7. [Referenzen](#referenzen)
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Safety Precautions](#safety-precautions)
+3. [Materials and Tools](#materials-and-tools)
+4. [Preparation](#preparation)
+5. [Etching Process](#etching-process)
+    1. [Step 1: Preparing the PCB](#step-1-preparing-the-pcb)
+    2. [Step 2: Transferring the Circuit Design](#step-2-transferring-the-circuit-design)
+    3. [Step 3: Etching the PCB](#step-3-etching-the-pcb)
+    4. [Step 4: Cleaning and Inspection](#step-4-cleaning-and-inspection)
+6. [Conclusion](#conclusion)
+7. [References](#references)
 
-## Einführung <a name="einführung"></a>
+## Introduction <a name="introduction"></a>
 
-Eine kurze Beschreibung des Projekts und seiner Ziele.
+A brief description of the project and its objectives.
 
-## Sicherheitshinweise <a name="sicherheitshinweise"></a>
+## Safety Precautions <a name="safety-precautions"></a>
 
-Wichtige Sicherheitshinweise und Vorsichtsmaßnahmen für den Ätzprozess.
+Important safety precautions and measures for the etching process.
 
-## Materialien und Werkzeuge <a name="materialien-und-werkzeuge"></a>
+## Materials and Tools <a name="materials-and-tools"></a>
 
-Eine Liste der benötigten Materialien und Werkzeuge.
+A list of required materials and tools.
 
-## Vorbereitung <a name="vorbereitung"></a>
+## Preparation <a name="preparation"></a>
 
-Beschreibung der Vorbereitungsmaßnahmen vor dem Ätzprozess.
+Description of preparatory measures before the etching process.
 
-## Ätzprozess <a name="ätzprozess"></a>
+## Etching Process <a name="etching-process"></a>
 
-### Schritt 1: Vorbereitung der Platine <a name="schritt-1-vorbereitung-der-platine"></a>
+### Step 1: Preparing the PCB <a name="step-1-preparing-the-pcb"></a>
 
-Beschreibung des ersten Schritts, der Vorbereitung der Platine.
+Description of the first step, preparing the PCB.
 
-![Bildbeschreibung](link-zum-bild)
+![Image Description](link-to-image)
 
-### Schritt 2: Übertragung des Schaltplans <a name="schritt-2-übertragung-des-schaltplans"></a>
+### Step 2: Transferring the Circuit Design <a name="step-2-transferring-the-circuit-design"></a>
 
-Beschreibung des zweiten Schritts, der Übertragung des Schaltplans auf die Platine.
+Description of the second step, transferring the circuit design onto the PCB.
 
-![Bildbeschreibung](link-zum-bild)
+![Image Description](link-to-image)
 
-### Schritt 3: Ätzen der Platine <a name="schritt-3-ätzen-der-platine"></a>
+### Step 3: Etching the PCB <a name="step-3-etching-the-pcb"></a>
 
-Beschreibung des dritten Schritts, dem Ätzen der Platine.
+Description of the third step, etching the PCB.
 
-![Bildbeschreibung](link-zum-bild)
+![Image Description](link-to-image)
 
-### Schritt 4: Reinigung und Prüfung <a name="schritt-4-reinigung-und-prüfung"></a>
+### Step 4: Cleaning and Inspection <a name="step-4-cleaning-and-inspection"></a>
 
-Beschreibung des vierten Schritts, der Reinigung und Prüfung der geätzten Platine.
+Description of the fourth step, cleaning and inspecting the etched PCB.
 
-![Bildbeschreibung](link-zum-bild)
+![Image Description](link-to-image)
 
-## Fazit <a name="fazit"></a>
+## Conclusion <a name="conclusion"></a>
 
-Eine Zusammenfassung der Ergebnisse oder Schlussfolgerungen des Projekts.
+A summary of the results or conclusions of the project.
 
-## Referenzen <a name="referenzen"></a>
+## References <a name="references"></a>
 
-Linkszu Ressourcen oder Referenzen, die während des Projekts verwendet wurden.
+Links to resources or references used during the project.
