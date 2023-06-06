@@ -41,7 +41,7 @@ Description of the first step, preparing the PCB.
 
 Description of the second step, transferring the circuit design onto the PCB.
 
-![Image Description](/home/myself/Pictures/Memes/yeahrighthahaha.jpg![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/f180869d-a6a6-4ed1-99ee-4e782e704790)
+![Image Description](home/myself/Pictures/Memes/yeahrighthahaha.jpg![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/f180869d-a6a6-4ed1-99ee-4e782e704790)
 
 
 ### Step 3: Etching the PCB <a name="step-3-etching-the-pcb"></a>
