@@ -123,6 +123,7 @@ Description of the fourth step, drilling the PCB
 A summary of the results or conclusions of the project.
 
 ![Doing a smart choice](![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6b7457c3-a367-4c58-ba48-923d3df96b7f)
+![blabla](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/blob/main/Bilder/KiCat/Inkscape1.jpeg)
 
 ## References <a name="references"></a>
 
