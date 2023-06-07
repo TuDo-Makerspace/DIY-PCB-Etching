@@ -101,7 +101,7 @@ Description of the third step, etching the PCB.
 ![schleifen3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/033cb2ce-59ce-4e12-9f65-d67ef010a6dd)
 ![Inkscape2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/4567835b-f7dc-49b3-8c86-eae1897a6eeb)
 ![Inkscape3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6a3608a7-ca53-4e5e-8a01-b8c084b1f9b1)
-![BuegelnSilkscreen1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/da6fc02d-24c8-42a7-97c0-c57505fdb2a1)
+![BuegelnSilkscreen1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/3823ebbd-0993-49fe-bc38-7b4a0dc544e5)
 ![BuegelnSilkscreen2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/f40f9825-baa0-4148-9a7e-3633b24567ae)
 ![BuegelnSilkscreen3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/9d26099a-aacd-40cb-9298-f0a927cda0fb)
 
