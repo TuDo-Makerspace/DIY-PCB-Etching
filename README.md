@@ -58,22 +58,18 @@ Description of preparatory measures before the etching process.
 ### Step 2: Transferring the Circuit Design <a name="step-2-transferring-the-circuit-design"></a>
 
 Description of the second step, transferring the circuit design onto the PCB.
-![Druckueberprüfung](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/32fb881f-42c9-408d-8f59-e8e90034e513)
-
-![Schrankutensilien](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/b8837516-55be-4d4a-bf7f-0787c8a667e4)
-
-![PCB-Sandpapier](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/bc734a11-766e-4183-a901-8f207d77db8f)
-
-![DruckerThermalpapier](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/be58299c-66a4-4534-8290-a4c5784e55fd)
-![DruckerThermalpapier2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/9db122da-0d90-43a3-8407-3cab7b908f76)
-![DruckerThermalpapier3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/a05c1a4f-603a-454d-999c-bad1e3cf1d82)
-![Buegeln1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/442c132d-a02b-493d-a032-4a24654e7b43)
-![Buegeln2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/e6a84acc-3339-43d1-a922-603b6e2e05d4)
-![Buegeln3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6698c30a-8114-49c2-9aa1-b8faba6f1f6b)
-![Buegeln4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/ee314a0d-4c41-4820-bc1d-b918ca8f3de2)
-![Buegeln5](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/0f101a1b-10f3-42fc-95de-fddb32b4201b)
-![Buegeln6](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/47a243b8-c5fe-4ee2-bdd4-4ba28686680d)
-![Buegeln7](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/91f3ee28-535d-4c39-a9fe-a81dbca32d31)
+![Schrankutensilien](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/0e9a5c2d-6780-44ce-9eee-47b4118e0dfd)
+![Druckueberprüfung](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/5e0267dc-760d-47ed-84dc-c98f69c319e2)
+![DruckerThermalpapier](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/29547943-8278-43f1-84ee-bb661c9a6856)
+![DruckerThermalpapier2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/157c6335-5cd8-4c25-8bad-fa31707c2d92)
+![DruckerThermalpapier3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/67bcc508-3de2-48aa-93b5-abe976fdb1f8)
+![Buegeln1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/08815385-b001-4ddf-92f5-154754064a9c)
+![Bügeln2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/5c5a58c4-46ca-4e4d-86ee-1ea425e9ddc0)
+![Buegeln3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/2495a4f2-0f28-4cfc-a710-13ecb268569d)
+![Buegeln4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6753416d-479a-4cad-951b-a4ed62474643)
+![Buegeln5](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/94c40a07-6d3b-4e4b-9e11-277aed5b54a2)
+![Buegeln6](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/01d70c5e-0b50-420f-836a-fdf14ea76298)
+![Buegeln7](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/90afd0b3-c866-4a2d-9dde-79539bb8e9a4)
 
 
 ### Step 3: Etching the PCB <a name="step-3-etching-the-pcb"></a>
