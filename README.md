@@ -25,6 +25,18 @@ Important safety precautions and measures for the etching process.
 
 A list of required materials and tools.
 
+ - ### Materials
+    - Material 1: Description or additional details
+    - Material 2: Description or additional details
+    - Material 3: Description or additional details
+    - ...
+
+  - ### Tools
+    - Tool 1: Description or additional details
+    - Tool 2: Description or additional details
+    - Tool 3: Description or additional details
+    - ...
+
 ## Preparation <a name="preparation"></a>
 
 Description of preparatory measures before the etching process.
