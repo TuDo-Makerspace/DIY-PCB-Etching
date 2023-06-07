@@ -106,7 +106,6 @@ Description of the third step, etching the PCB.
 ![BuegelnSilkscreen3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/9d26099a-aacd-40cb-9298-f0a927cda0fb)
 
 
-![Doing a smart choice](![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6b7457c3-a367-4c58-ba48-923d3df96b7f)
 
 ### Step 4: drilling <a name="step-4-cleaning-and-inspection"></a>
 
@@ -123,6 +122,8 @@ Description of the fourth step, drilling the PCB
 ## Conclusion <a name="conclusion"></a>
 
 A summary of the results or conclusions of the project.
+
+![Doing a smart choice](![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6b7457c3-a367-4c58-ba48-923d3df96b7f)
 
 ## References <a name="references"></a>
 
