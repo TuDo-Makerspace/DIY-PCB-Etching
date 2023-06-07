@@ -35,7 +35,12 @@ Description of preparatory measures before the etching process.
 
 Description of the first step, preparing the PCB.
 
-![test](/home/myself/Pictures/GithubProjekte/PCB-Etching/Bilder/KiCat/KiCad1.jpeg)
+![KiCad1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/83e73347-0b67-4c55-b55c-5cc25b43590d)
+![KiCad2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/03a140e0-9d1e-4773-bcf6-091a0446c47f)
+![KiCad3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/2f2de002-6314-4bab-b62b-2454a0e89c7c)
+![KiCad4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/7cb29201-d2a6-4dc7-a8d7-6d9494e01149)
+![KiCad5](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/50bbb46c-8f3d-4a09-b259-79048b25b293)
+![KiCad4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/ebfefc17-5f75-414e-bf27-a6d54239ad13)
 
 
 ### Step 2: Transferring the Circuit Design <a name="step-2-transferring-the-circuit-design"></a>
