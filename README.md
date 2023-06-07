@@ -37,10 +37,9 @@ Description of preparatory measures before the etching process.
 ![KiCad1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/7f747007-afcb-47b3-89d9-1a4053ad9a0d)
 ![KiCad2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/9d3d4e8a-a94d-4ee5-8aa9-860d9578a793)
 ![KiCad3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/b2092ed2-218a-4a78-8e6a-2698fbd84bea)
-![KiCad4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/29e41b1c-ebf3-439c-ae7e-5369f3f36e8b)
 ![KiCad5](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/d46e8677-fa10-4f98-8f40-8ab82c09042d)
 
--
+![KiCad4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/29e41b1c-ebf3-439c-ae7e-5369f3f36e8b)
 ![Inkscape1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/050198c3-d721-4908-a558-55d4f6d4305e)
 
 
