@@ -42,6 +42,7 @@ Description of the first step, preparing the PCB.
 ![KiCad5](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/50bbb46c-8f3d-4a09-b259-79048b25b293)
 ![KiCad4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/ebfefc17-5f75-414e-bf27-a6d54239ad13)
 
+![Inkscape1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/a0502ec0-58e5-4e0c-80a3-daa07c29569f)
 
 ### Step 2: Transferring the Circuit Design <a name="step-2-transferring-the-circuit-design"></a>
 
