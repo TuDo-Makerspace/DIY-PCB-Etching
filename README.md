@@ -58,6 +58,11 @@ Description of preparatory measures before the etching process.
 ### Step 2: Transferring the Circuit Design <a name="step-2-transferring-the-circuit-design"></a>
 
 Description of the second step, transferring the circuit design onto the PCB.
+<p align="center">
+  <img src="https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/0e9a5c2d-6780-44ce-9eee-47b4118e0dfd" alt="Schrankutensilien">
+</p>
+
+
 ![Schrankutensilien](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/0e9a5c2d-6780-44ce-9eee-47b4118e0dfd)
 ![Druckueberprüfung](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/5e0267dc-760d-47ed-84dc-c98f69c319e2)
 ![DruckerThermalpapier](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/29547943-8278-43f1-84ee-bb661c9a6856)
