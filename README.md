@@ -83,11 +83,39 @@ Description of the second step, transferring the circuit design onto the PCB.
 
 Description of the third step, etching the PCB.
 
+![FeCL3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/1d2b2c4c-1bd4-4483-80b4-f5708658a93d)
+
+
+![aetzen1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/d4e56967-497b-4df2-b767-6938fa6033b9)
+![aetzen2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6837e0f0-15c3-4241-8bc8-1778597859c0)
+![aetzen3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/aa4289bb-d8c2-4ae5-8430-07063006d910)
+![aetzen4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/9e4b3b3d-b4b3-49ca-8a99-a88e3f742aa8)
+![aetzen5](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/2e37241d-4deb-4170-9317-c5954bae200a)
+![aetzen6](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/e840bc81-f924-4e69-b17a-cc52647be716)
+![aetzen7](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/39aa236e-49b0-4537-84da-d3330f51d5d1)
+![aetzen8](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/22468c12-fcb0-44e8-8344-99045cdbf661)
+![aetzen9](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/cf6f2f2a-eb5a-4ce9-9436-f8a3328cbc6b)
+![schleifen1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/9ccfc045-2b46-4d6a-83d5-a2465ffce77d)
+![schleifen2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/59bf3abc-b5c7-4d8b-bfb4-bac70e7e2996)
+![schleifen3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/033cb2ce-59ce-4e12-9f65-d67ef010a6dd)
+![Inkscape2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/4567835b-f7dc-49b3-8c86-eae1897a6eeb)
+![Inkscape3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6a3608a7-ca53-4e5e-8a01-b8c084b1f9b1)
+![BuegelnSilkscreen1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/da6fc02d-24c8-42a7-97c0-c57505fdb2a1)
+![BuegelnSilkscreen2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/f40f9825-baa0-4148-9a7e-3633b24567ae)
+![BuegelnSilkscreen3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/9d26099a-aacd-40cb-9298-f0a927cda0fb)
+
+
 ![Doing a smart choice](![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/6b7457c3-a367-4c58-ba48-923d3df96b7f)
 
-### Step 4: Cleaning and Inspection <a name="step-4-cleaning-and-inspection"></a>
+### Step 4: drilling <a name="step-4-cleaning-and-inspection"></a>
 
-Description of the fourth step, cleaning and inspecting the etched PCB.
+Description of the fourth step, drilling the PCB
+
+![Bohren1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/4ff11cec-16fa-4f8e-97f6-65fc70818d02)
+![Bohren2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/858dde01-a2bc-4210-9541-5ed3aff66b0f)
+![Bohren3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/45927ba6-54ca-40a1-ac4d-8cae423870be)
+![Bohren4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/4133da14-604b-4bd9-9f1c-2a870cb2a34d)
+
 
 ![Image Description](link-to-image)
 
