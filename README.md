@@ -116,6 +116,7 @@ Description of the fourth step, drilling the PCB
 ![Bohren3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/45927ba6-54ca-40a1-ac4d-8cae423870be)
 ![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/4133da14-604b-4bd9-9f1c-2a870cb2a34d)
 ![image](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/Bohren4.jpeg)
+![Image Description](https://raw.githubusercontent.com/schnackus/TU-DO-Makerspace/DIY_PCB_Etching/assets/Bohren4.jpeg)
 
 ## Conclusion <a name="conclusion"></a>
 
