@@ -9,7 +9,7 @@
     1. [Step 1: Preparing the PCB](#step-1-preparing-the-pcb)
     2. [Step 2: Transferring the Circuit Design](#step-2-transferring-the-circuit-design)
     3. [Step 3: Etching the PCB](#step-3-etching-the-pcb)
-    4. [Step 4: Cleaning and Inspection](#step-4-cleaning-and-inspection)
+    4. [Step 4: Cleaning and Inspection](#step-4-drilling-the-PCB)
 6. [Conclusion](#conclusion)
 7. [References](#references)
 
