@@ -35,13 +35,8 @@ Description of preparatory measures before the etching process.
 
 Description of the first step, preparing the PCB.
 
-![Image Description](/home/myself/Loqseq/Bilder/KiCat/KiCad1.jpeg)
-![Image Description](/home/myself/Loqseq/Bilder/KiCat/KiCad2.jpeg)
-![Image Description](/home/myself/Loqseq/Bilder/KiCat/KiCad3.jpeg)
-![Image Description](/home/myself/Loqseq/Bilder/KiCat/KiCad4.jpeg)
-![Image Description](/home/myself/Loqseq/Bilder/KiCat/KiCad5.jpeg)
-![Image Description](/home/myself/Loqseq/Bilder/KiCat/Inkscape1.jpeg)
-![Image Description](/home/myself/Loqseq/Bilder/KiCat/Inkscape2.jpeg)
+![test](/home/myself/Pictures/GithubProjekte/PCB-Etching/Bilder/KiCat/KiCad1.jpeg)
+
 
 ### Step 2: Transferring the Circuit Design <a name="step-2-transferring-the-circuit-design"></a>
 
