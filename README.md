@@ -66,6 +66,9 @@ Description of the second step, transferring the circuit design onto the PCB.
 ![Druckueberprüfung](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/5e0267dc-760d-47ed-84dc-c98f69c319e2)
 ![DruckerThermalpapier](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/29547943-8278-43f1-84ee-bb661c9a6856)
 ![DruckerThermalpapier2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/157c6335-5cd8-4c25-8bad-fa31707c2d92)
+
+![PCB-Sandpapier](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/52e4ce8c-d970-442d-ad9b-ba648c2b2c4f)
+
 ![DruckerThermalpapier3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/67bcc508-3de2-48aa-93b5-abe976fdb1f8)
 ![Buegeln1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/08815385-b001-4ddf-92f5-154754064a9c)
 ![Bügeln2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/5c5a58c4-46ca-4e4d-86ee-1ea425e9ddc0)
