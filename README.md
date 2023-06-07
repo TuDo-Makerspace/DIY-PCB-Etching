@@ -82,8 +82,9 @@ Description of the second step, transferring the circuit design onto the PCB.
 ### Step 3: Etching the PCB <a name="step-3-etching-the-pcb"></a>
 
 Description of the third step, etching the PCB.
-
-![FeCL3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/1d2b2c4c-1bd4-4483-80b4-f5708658a93d)
+<p align="center">
+  <img src="https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/1d2b2c4c-1bd4-4483-80b4-f5708658a93d" alt="FeCL3">
+</p>
 
 
 ![aetzen1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/d4e56967-497b-4df2-b767-6938fa6033b9)
