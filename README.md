@@ -15,7 +15,7 @@
 
 ## Introduction <a name="introduction"></a>
 
-A brief description of the project and its objectives.
+This is a tutorial about PCB Etching in the TU-DO makerspace.
 
 ## Safety Precautions <a name="safety-precautions"></a>
 
@@ -31,19 +31,16 @@ Description of preparatory measures before the etching process.
 
 ## Etching Process <a name="etching-process"></a>
 
-### Step 1: Preparing the PCB <a name="step-1-preparing-the-pcb"></a>
+### Step 1: Preparing the PCB (example in KiCad) <a name="step-1-preparing-the-pcb"></a>
 
 Description of the first step, preparing the PCB.
+![KiCad1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/7f747007-afcb-47b3-89d9-1a4053ad9a0d)
+![KiCad2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/9d3d4e8a-a94d-4ee5-8aa9-860d9578a793)
+![KiCad3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/b2092ed2-218a-4a78-8e6a-2698fbd84bea)
+![KiCad4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/29e41b1c-ebf3-439c-ae7e-5369f3f36e8b)
+![KiCad5](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/d46e8677-fa10-4f98-8f40-8ab82c09042d)
+![Inkscape1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/050198c3-d721-4908-a558-55d4f6d4305e)
 
-![KiCad1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/83e73347-0b67-4c55-b55c-5cc25b43590d)
-![KiCad2](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/03a140e0-9d1e-4773-bcf6-091a0446c47f)
-![KiCad3](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/2f2de002-6314-4bab-b62b-2454a0e89c7c)
-![KiCad4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/7cb29201-d2a6-4dc7-a8d7-6d9494e01149)
-![KiCad5](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/50bbb46c-8f3d-4a09-b259-79048b25b293)
-![KiCad4](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/ebfefc17-5f75-414e-bf27-a6d54239ad13)
-
-![Inkscape1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/a0502ec0-58e5-4e0c-80a3-daa07c29569f)
-![Inkscape1](https://github.com/TU-DO-Makerspace/DIY_PCB_Etching/assets/51839738/de098a5d-06bc-4bcc-9e20-92e2c87a3cad)
 
 ### Step 2: Transferring the Circuit Design <a name="step-2-transferring-the-circuit-design"></a>
 
