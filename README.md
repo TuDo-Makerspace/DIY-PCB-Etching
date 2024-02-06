@@ -13,6 +13,11 @@ etching their own PCBs.
 - [Materials and Tools ](#materials-and-tools-)
 - [Safety Precautions ](#safety-precautions-)
 - [Step 1: Designing the PCB](#step-1-designing-the-pcb)
+	- [Edge Cuts](#edge-cuts)
+	- [Traces](#traces)
+	- [Jumpers](#jumpers)
+	- [Copper Pour](#copper-pour)
+	- [Silk Screen](#silk-screen)
 - [Step 2: Preparing the Print](#step-2-preparing-the-print)
 - [Step 3: Preparing for the Toner Transfer](#step-3-preparing-for-the-toner-transfer)
 - [Step 3: Transferring the Circuit Design](#step-3-transferring-the-circuit-design)
@@ -70,46 +75,85 @@ handled with care.
 
 The first step is to design the PCB. We use [KiCad](https://kicad.org/) for this purpose.
 
-Throughout this tutorial, we will be working with a PCB that @CTXz has designed to control LED
-tubes via MIDI.
-
 When designing the PCB, it is important to keep in mind that we are limited to single sided PCBs.
 While there are ways to etch double sided PCBs, our tools and materials are not really suited for
 the task.
 
 Please note that this tutorial does not cover KiCAD as a whole, but rather how to use KiCAD to
-design a PCB that can be etched easily.
+design a PCB that can be etched easily. If you are not familiar with KiCAD, we highly recommend
+checking out a KiCAD tutorial first.
+
+### Edge Cuts
 
 As a first step, begin by defining the edge cuts of the PCB to the size of your copper board (or smaller
 if you don't intend to use the entire board).
 
-![Edge Cuts]()
+![Edge Cuts](img/KiCad-EdgeCuts.png)
 
-Next, place all the components on the board and connect them with traces. Use the bottom layer for
-the traces, as that corresponds to how the circuit will be printed onto the copper board.
-It is also highly recommended use a larger trace width (e.g. 0.8mm) and large clearance (e.g. 0.5mm)
-to make the etching process less prone to errors.
+### Traces
 
-![Traces]()
+Next, place all the components on the board and and connect them using traces where possible.
+**Do not connect any GND connections, as these will be dealt with a copper pour later.**
+Use the **bottom layer (B.CU)** for the traces, as that corresponds to how the circuit will be printed
+onto the copper board. It is also highly recommended use a larger trace width (>= 0.5mm, 1mm recommended)
+and a larger trace clearance (0.35mm recommended) to make the etching process less prone to errors.
+
+![Traces](img/KiCad-EdgeCuts.png)
+
+### Jumpers
 
 There will come a point where you will have to cross traces. On a signle sided PCB we can use
 jumpers (i.e wires) jump over traces. Unfortunately, KiCAD isn't well equipped to deal with jumpers.
 As a workaround, we can place vias and connect them with traces on top layer of the PCB.
-This will provide you with a visual indication of where to place the jumpers and prevent KiCAD
+This will provide you with a visual reference where to place the jumpers and prevent KiCAD
 from complaining about unconnected traces in the design rules check.
 
-![Jumpers]()
+There are several ways to realize jumpers on the PCB. Typically we use cut off leads from components
+such as resistors, capacitors, etc. to create jumpers. Another way is to use [pre-made breadboard
+jumpers](https://www.amazon.de/-/en/WayinTop-Breadboard-Different-Flexible-Tweezers/dp/B07PRGFW5Z)
+which come in various lengths and colors. In this case, you will want to ensure the jumper traces
+correspond to the available size. Wire can also be used to create jumpers. If you are feeling extra lazy,
+you can also implement jumpers by directly soldering a isolated wire between the two disconnected points.
+This will spare you the need to drill holes for a proper jumper. In this case, using vias is not necessary,
+instead, directly connect the two pins with a trace on the top layer.
 
-Ensure that silk screen is only placed on the top layer of the PCB. This is important as the used
-method in this tutorial can be used to print the silk screen onto the PCB as well.
+There are several methods for implementing jumpers on a PCB. Typically, we utilize cut-off leads from components such as resistors or capacitors to establish these connections.
 
-![Silk Screen]()
+![Jumpers made from leads]()
+
+Alternatively, [pre-made breadboard jumpers]((https://www.amazon.de/-/en/WayinTop-Breadboard-Different-Flexible-Tweezers/dp/B07PRGFW5Z)), available in various lengths and colors, offer another solution. When using these types of jumpers, it's important to ensure that the traces correspond to the available jumper sizes. Wire may also be employed to create jumpers and for those who feel lazy, directly soldering an isolated wire between the two disconnected points is also an option, saving the need to drill holes for a proper jumper. In such cases, vias are unnecessary; instead, connect the two pins directly with a trace on the top layer.
+
+![Jumpers implemented with direct wire connections]()
+
+Unless you are directly soldering a wire between two points, it is recommended to use a larger default via size. For jumpers made out of thin leads or wires, a recommended inner diameter of 0.4mm and an outer diameter of 1mm is suggested. For larger leads or thicker wires, a inner diameter of 0.8mm and an outer diameter of 1.6mm is more suitable. Ensure that the "jumper traces" are aligned in straight lines in order to corresponds to the intended placement of the jumpers on the PCB.
+
+### Copper Pour
+
+Once the traces are placed, we can add a copper pour (filled zone) to the bottom layer. This will provide
+a solid ground connection for all components and reduce the amount of etching required. For now, ensure that
+"islands" are always removed, as this will ease jumping disconnected ground planes with jumpers. Also
+set the Pad connection to "Solid" since thermal relief's are not necessary for self-etched PCBs and can
+be easily ripped off when soldering. Once the copper pour is placed, add jumpers between any disconnected
+ground planes. Once all ground planes are connected, set islands to never be removed and refill all zones.
+When etching your own PCBs, you'll want as little copper to be removed as possible to reduce the etching
+time and save etching solution.
+
+
+Once the traces are positioned, we can introduce a copper pour (filled zone) onto the bottom layer. This ensures a big ground connection for all components. At this stage, it's important to set `Remove islands` to `Always`, as this will ease connecting disconnected ground planes with jumpers. Additionally, set the Pad connection to "Solid" since thermal reliefs are unnecessary for self-etched PCBs and can be easily ripped off during soldering. Once the copper pour is placed, proceed to add jumpers where necessary to link any disconnected ground planes. Once all ground planes have been connected, set `Remove islands` to `Never` and refill all zones. We keep islands in order to minimize the amount of copper that needs to be etched.
+This will reduce the etching time and save etching solution.
+
+![Copper Pour](img/KiCad-CopperPour.png)
+
+### Silk Screen
+
+If you are confident with your PCB layout, run a design rules check to ensure that there are no
+errors in the PCB design. Once the design rules check is passed, you may begin to design the silk
+screen. Ensure that silk screen is only placed on the top layer of the PCB, as that layer represents
+the non-copper side of the PCB.
+
+![Silk Screen](img/KiCad-SilkScreen.png)
 
 Finally, it doesn't harm to increase the size of the pads for the components. This will make
-soldering easier and more reliable and reduce the probability of ripped pads and leave a larger
-tolerance for drilling the holes.
-
-![Increased Pads]()
 
 ## Step 2: Preparing the Print
 
@@ -144,7 +188,7 @@ place the copper board infront of the screen and confirm that the layers are mir
 Finally print the page on a sheet of thermal paper. Ensure the size of the print is set to
 100% and that the print is not scaled in any way.
 
-![Print]()_
+![Print](img/Print.jpg)
 
 Be cautious when handling the thermal paper as the print can easily be scratched off.
 
@@ -160,34 +204,40 @@ more shiny. Scratch marks are totally fine, just make sure not to sand it too mu
 It is recommended wearing a face mask when sanding the copper board to avoid inhaling the dust.
 A well ventilated area is also recommended.
 
-![Sanding]()
+![Sanding](img/Sanding.jpg)
 
 Grab the printer toner transfer paper and align the copper board with its copper side
 to the print of the back copper layer. Use tape to fixate the copper board to the print so it
-doesn't move around during the transfer process. Avoid using heat resistant tape as heat should
-ideally spread evenly across the top and even bottom of the copper board. Finally, cut out the
-part of the print where the PCB is located.
+doesn't move around during the transfer process. Finally, cut out the part of the print where
+the PCB is located. Leave a margin of a few centimeters around the PCB when cutting the print!
 
-![Taping the Copper to the paper]()
+![Taping the Copper to the paper](img/Taping.jpg)
 
-Next, get a heat conductive surface (we are using an old print bed) and place the PCB with
-its non-copper side facing it.
-
-![Placing on heat conductive surface]()
+Next, get a heat conductive surface (we are using an old print bed) and place the PCB onto it with
+its masked copper side facing upward. You may also want to tape the PCB to the heat conductive surface
+as that will keep it from moving around during the transfer process. Avoid placing the tape directly on
+top of the PCB, instead use the margin around the PCB to fixate it.
 
 Now it's time to fire up the iron and wait for it to heat up. We are using the highest temperature
 setting.
 
 ## Step 3: Transferring the Circuit Design
 
-Once the Iron has heated up, apply some heat to the heat conductive surface first. This will ensure
-the back side of the copper board is heated up as well. Then, place the iron on the print and
-apply pressure. You'll want to move the iron around to ensure the heat is applied evenly across.
+Once the Iron has heated up, apply some heat to the heat conductive surface first (ex. from the bottom).
+This will ensure the back side of the copper board is heated up as well. Then, place the iron on the print and
+apply pressure.
+
+![Ironing](img/Iron.jpeg)
+
+You'll want to move the iron around to ensure the heat is applied evenly across.
 If the toner starts to become visible through the paper, you're doing it right.
-Once all of the toner is visible through the paper, you can remove the iron. Wait for a short
-while and place the copper board along with the print into cold water. After pouring cold water
-for a short while, you can remove the print from the copper board. If things went well,
-the toner should have transferred to the copper board without any issues.
+Once most of the toner is visible through the paper, you can remove the iron.
+
+![Toner visible through the paper](img/TonerVisible.jpg)
+
+Wait for a short while and place the copper board along with the print into cold water. After pouring cold water,
+you can remove the print from the copper board. If things went well, the toner should have transferred to the copper
+board without any issues.
 
 ![Peeling]()
 
@@ -214,13 +264,15 @@ solution will start forming bubbles during when the etching process is nearly fi
 It is good to check the progress of the etching process every now and then. Please use
 a tool or gloves to do this.
 
+![Etching](img/Etching.jpg)
+
 Once the etching process is finished, pour the etching solution into a container. You
 can reuse the etching solution multiple times, so don't throw it away just yet.
 
 Rinse the PCB with water and remove the toner by sanding the PCB with a fine grit sandpaper.
 Pouring iso-propyl alcohol on the PCB will ease removing the toner.
 
-![PCB after etching]()
+![PCB after etching](img/EtchedNSanded.jpg)
 
 ## Step 6: Applying the Silk Screen
 
@@ -230,7 +282,7 @@ that there's no etching involved.
 
 To apply the silk screen, place the non-copper side of the PCB onto the print of the top silk screen.
 
-![Placing the PCB on the print]()
+![Placing the PCB on the print](img/Silk.jpg)
 
 Once again, use tape to fixate the PCB to the print and cut out the part of the print
 where the PCB is located. Ensure that the orientation of the silk screen aligns with the
