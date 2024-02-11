@@ -4,6 +4,8 @@
 
 > Contributors: @schnackus, @CTXz
 
+> **Note:** This guide constantly evolves with every new PCB printed. Hence, any content here is subject to change!
+
 After etching a fair amount of our own PCBs, we decided it would be a good idea to document the
 process and publish it in form of a small tutorial. While process described here is based on our
 supplies and equipment, it should hopefully provide a good starting point for anyone interested in
@@ -98,7 +100,7 @@ Use the **bottom layer (B.CU)** for the traces, as that corresponds to how the c
 onto the copper board. It is also highly recommended use a larger trace width (>= 0.5mm, 1mm recommended)
 and a larger trace clearance (0.35mm recommended) to make the etching process less prone to errors.
 
-![Traces](img/KiCad-EdgeCuts.png)
+![Traces](img/KiCad-Traces.png)
 
 ### Jumpers
 
@@ -119,11 +121,13 @@ instead, directly connect the two pins with a trace on the top layer.
 
 There are several methods for implementing jumpers on a PCB. Typically, we utilize cut-off leads from components such as resistors or capacitors to establish these connections.
 
-![Jumpers made from leads]()
+![Jumpers made from leads](img/LeadJumper.jpg)
 
-Alternatively, [pre-made breadboard jumpers]((https://www.amazon.de/-/en/WayinTop-Breadboard-Different-Flexible-Tweezers/dp/B07PRGFW5Z)), available in various lengths and colors, offer another solution. When using these types of jumpers, it's important to ensure that the traces correspond to the available jumper sizes. Wire may also be employed to create jumpers and for those who feel lazy, directly soldering an isolated wire between the two disconnected points is also an option, saving the need to drill holes for a proper jumper. In such cases, vias are unnecessary; instead, connect the two pins directly with a trace on the top layer.
+Alternatively, [pre-made breadboard jumpers]((https://www.amazon.de/-/en/WayinTop-Breadboard-Different-Flexible-Tweezers/dp/B07PRGFW5Z)), or [0-Ohm resistors](https://www.reichelt.de/duennschichtwiderstand-axial-0-4-w-0-ohm-1--vi-mba02040z0000-p233662.html?&trstct=pos_1&nbc=1) offer another solution. When using these types of jumpers, it's important to ensure that the traces correspond to the available jumper/resistor sizes.
 
-![Jumpers implemented with direct wire connections]()
+ Wire may also be employed to create jumpers and for those who feel lazy, directly soldering an isolated wire between the two disconnected points is also an option, saving the need to drill holes for a proper jumper. In such cases, vias are unnecessary; instead, connect the two pins directly with a trace on the top layer.
+
+![Jumpers implemented with direct wire connections](img/WireJumper.jpg)
 
 Unless you are directly soldering a wire between two points, it is recommended to use a larger default via size. For jumpers made out of thin leads or wires, a recommended inner diameter of 0.4mm and an outer diameter of 1mm is suggested. For larger leads or thicker wires, a inner diameter of 0.8mm and an outer diameter of 1.6mm is more suitable. Ensure that the "jumper traces" are aligned in straight lines in order to corresponds to the intended placement of the jumpers on the PCB.
 
@@ -158,39 +162,27 @@ Finally, it doesn't harm to increase the size of the pads for the components. Th
 ## Step 2: Preparing the Print
 
 Once the PCB design is finished, we can prepare the print. For this, we need to export the PCB
-as a PDF file. To do this, open the plot dialog via `File -> Plot...`. First, export a black
-and white SVG of the edge cuts, top copper and top silk screen and ensure it is mirrored horizontally.
-Then export another black and white SVG of the edge cuts and bottom copper layer. The bottom
-layer should **not** be mirrored.
+as a SVG file. To do this, open the plot dialog via `File -> Plot...`. Then:
 
-To understand why we must flip the top layer and not the bottom layers, think of sandwiching the
-copper board between the two layers. The top layer will be printed on the top side, which requires
-the transfer paper to be flipped horizontally. The bottom layer will be printed on the bottom side,
-which does not require the transfer paper to be flipped. This is the most intuitive way to remember
-which layers need to be flipped in our opinion.
+  1. Traces: Export a black and white SVG with the edge cuts and back copper layer (B.Cu).
+  2. Silkscreen: Export a **mirrored** black and white SVG with the edge cuts and the front silkscreen layer (F.Silkscreen). To mirror the SVG, tick the `Print mirrored` checkbox.
 
-![Sandwich Illustration]()
+Alternatively, the bottom layer can be mirrored, and the silkscreen layer can be left as it is. Just ensure that the orientation of both layers complements each other; otherwise, the layers will not be aligned!
 
-As an additional note: We're exporting the edge cuts as they provide a great visual reference when
-aligning the print to the copper board later.
-
-![Exporting SVGs]()
-
+Note: Strictly speaking, exporting the edge-cuts layer is not required. However, it does provide a valuable visual reference for aligning the copper board to the print.
+ 
 Next, open the SVGs in Inkscape and place them on a single page. Feel free to place multiple
 copies of of the layers on the page, that way you got a backup in case something goes wrong
 during the printing process. Additionally, this also allows you to print multiple PCBs.
 
-![Inkscape]()
+![Inkscape](img/Inkscape.png)
 
 This is the last chance to fix the orientation of the layers. For a sanity check you may
 place the copper board infront of the screen and confirm that the layers are mirrored correctly.
 
-Finally print the page on a sheet of thermal paper. Ensure the size of the print is set to
-100% and that the print is not scaled in any way.
+Before printing the layers onto the thermal paper, we highly recommend printing them onto ordinary paper first. This precaution ensures that if the scaling is incorrect or a footprint is inaccurate, thermal paper will not be wasted. **Always ensure that the scaling in the print settings is set to 100%**. If you are confident that everything is right, you may proceed to print the layout directly onto a sheet of thermal paper. Please be cautious when handling the thermal paper as the print can easily be scratched off.
 
 ![Print](img/Print.jpg)
-
-Be cautious when handling the thermal paper as the print can easily be scratched off.
 
 ## Step 3: Preparing for the Toner Transfer
 
@@ -253,24 +245,22 @@ not to short any traces. If a trace is shorting, you can scrape away the toner (
 ## Step 5: Etching the PCB
 
 The PCB is ready to be etched. For this, we need to prepare the etching solution. We are using
-Ferric Chloride for this purpose. Please be very cautious when handling the etching solution,
-as it can easily permanently stain anything it gets in contact with. As a concequence, it is
+Ferric Chloride for this purpose. **Please be very cautious when handling the etching solution,
+as it can easily permanently stain anything it gets in contact with**. As a concequence, it is
 strongly advised to use a lab coat and gloves during this procedure.
 
-To prepare the etching solution, pour some of the Ferric Chloride into a plastic container.
-The amount should be enough to submerge the PCB. Then, shake the container to speed up the
-etching process. You'll typically want to shake it for about 5-10 minutes. Typically the
-solution will start forming bubbles during when the etching process is nearly finished.
-It is good to check the progress of the etching process every now and then. Please use
-a tool or gloves to do this.
+Begin by pouring some of the Ferric Chloride into a plastic container. The amount should be enough to submerge the PCB. Then, shake the container to speed up the etching process. You'll typically want to shake it for about 5-10 minutes. Typically the
+solution will start forming bubbles during when the etching process is nearly finished. It is good to check the progress of the etching process every now and then. Please use a tool or gloves to do this.
 
 ![Etching](img/Etching.jpg)
 
-Once the etching process is finished, pour the etching solution into a container. You
-can reuse the etching solution multiple times, so don't throw it away just yet.
+You will recognize that etching is complete when all exposed parts have have lost their shiny copper appearance and instead expose the brown color of non-conductive layer.
 
-Rinse the PCB with water and remove the toner by sanding the PCB with a fine grit sandpaper.
-Pouring iso-propyl alcohol on the PCB will ease removing the toner.
+![Eched](img/Etched.jpg)
+
+Once the etching process is complete, do not dispose of the etching solution, as it can be reused.
+
+Next, rinse the PCB with water and remove the toner by sanding it with fine-grit sandpaper. Adding iso-propyl alcohol will ease this process.
 
 ![PCB after etching](img/EtchedNSanded.jpg)
 
@@ -295,14 +285,18 @@ peel the print off the PCB. Hopefully, the silk screen has transferred to the PC
 
 ## Step 7: Drilling
 
-The PCB is almost finished. The last step is to drill the holes for the components. For this,
-we are using a Dremel with a stand and 0.8mm drill bits. The drill bits are very fragile, so
-be cautious not to break them. It is also recommended to wear a face mask when drilling the PCB.
+The PCB is almost finished. The final step involves drilling holes for the components. While we previously utilized a Dremel with a drill stand, we have transitioned to using a drill press after purchasing one for the makerspace. If you wish to do things properly, it is recommended to always use the appropriate drill bit that matches the footprint's hole sizes. That being said, in order to save cost and time, we tend to only use two drill bit sizes. For smaller holes (ex. for components with thin leads) we use a 0.8mm bit. For larger holes (ex. resistors, capacitors) we use a 1mm bit.
 
-Make sure to place a piece of wood or something similar underneath the PCB to prevent the drill
-from damaging the surface underneath. Place the PCB with the copper side facing upwards and
-drill the holes for the components. It is not recommended to drill the holes from the non-copper
-side, as the silk screen is usually not perfectly aligned with the copper side.
+Before you begin drilling, consider these important tips:
+
+- Wear protective goggles at all times to prevent potential eye injuries from broken drill bits.
+- Always be mindful of your hands to avoid accidental injury while handling the drill.
+- Keep the PCB stable and avoid moving it during drilling to prevent damage to the drill bit.
+- Drill the holes from the copper side. **It is not recommended to drill the holes from the non-copper side, as the silk screen is usually not perfectly aligned with the copper side.**
+
+Place the PCB with the copper side facing upwards and carefully drill the holes for the components. This process requires time, caution and patience, so please don't rush it!
+
+![Drilling](img/Drill.png)
 
 ## Step 8: Testing the PCB
 
@@ -310,19 +304,13 @@ At this point you'll typically want to double check the PCB for any shorts or ot
 We recommend using a multi-meter's continuity test to check if all connections are correct.
 Be aware that some shorts are very hard to spot and may be very small.
 
-![Example of a micro short]()
+![Example of a micro short](img/MicroShort.jpg)
 
 ## Step 9: Components and Soldering
 
-The PCB is now ready to be populated with components. We recommend starting with flatter and smaller
-components first and then moving on to larger components. It is also recommended to use a PCB holder
-for this task. Since the PCB is single sided and rather thin, you will want to use a lower soldering
-temperature than for most professionally manufactured PCBs. We are typically using around 380°C with
-lead-free solder. Using higher temperatures can easily rip of the pads. Using flux is also strongly 
-recommended, since there's no solder mask on the PCB to prevent solder from flowing to unwanted places.
-If you happen to accidentally create a solder bridge, solder wick or solder suckers will do a good
-job seperating the bridged pads. We found it to often be easier to desolder on self-etched PCBs than
-on professionally manufactured PCBs due to the lower thermal mass.
+The PCB is now ready to be populated with components. We recommend starting with flatter and smaller components first and then moving on to larger components. It is also recommended to use a PCB holder for this task. Since the PCB is single sided and rather thin, you will want to use a lower soldering temperature than for most professionally manufactured PCBs. We are typically using around 380°C with lead-free solder. Using higher temperatures can easily rip of the pads. Using flux is also strongly  recommended, since there's no solder mask on the PCB to prevent solder from flowing to unwanted places. If you happen to accidentally create a solder bridge, solder wick or solder suckers will do a good job seperating the bridged pads. We found it to often be easier to desolder on self-etched PCBs than on professionally manufactured PCBs due to the lower thermal mass.
+
+![Result](img/Result.jpg)
 
 ## Step 10: Final Test
 
