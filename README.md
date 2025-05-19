@@ -162,7 +162,7 @@ Finally, it doesn't harm to increase the size of the pads for the components. Th
 ## Step 2: Preparing the Print
 
 Once the PCB design is finished, we can prepare the print. For this, we need to export the PCB
-as a SVG file. To do this, open the plot dialog via `File -> Plot...`. Then:
+as a SVG file. To do this, open the plot dialog via `File -> Print...`. Then:
 
   1. Traces: Export a black and white SVG with the edge cuts and back copper layer (B.Cu).
   2. Silkscreen: Export a **mirrored** black and white SVG with the edge cuts and the front silkscreen layer (F.Silkscreen). To mirror the SVG, tick the `Print mirrored` checkbox.
